@@ -13,43 +13,32 @@ This script demonstrates how to encode and decode data using Base64 in Python. B
 
 ## Usage
 
-1. **Clone the repository or download the script.**
+To use this script, follow these steps:
 
-2. **Run the script**:
-
-    ```sh
-    python script_name.py
-    ```
-
-3. **Follow the on-screen prompt to enter the data you want to encode.** The script will display the Base64 encoded result, and then decode it back to the original string to verify the process.
-
-## Example
-
-Here's an example interaction with the script:
-
-```sh
-Enter the data to encode: Hello, World!
-Encoded: SGVsbG8sIFdvcmxkIQ==
-Decoded: Hello, World!
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Arpita23r/UTF-8encoder.git
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd UTF-8encoder
+   ```
+3. **Run the script:**
+   ```sh
+   python base64_encoder_decoder.py
+   ```
 
 
-- **Import base64**: Imports the base64 module which contains methods for encoding and decoding.
-- **main() function**:
-  - Prompts the user to enter data.
-  - Encodes the input data using Base64.
-  - Prints the encoded string.
-  - Decodes the encoded string back to the original data.
-  - Prints the decoded string to verify it matches the original input.
-- **Script execution check**: Ensures the `main()` function runs when the script is executed directly.
+## License
+
+This project is not licensed.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
 ## Contact
 
-For any questions or suggestions, please open an issue or contact the repository owner.
+For any questions or suggestions, feel free to contact the repository owner.
 
----
-
-Happy encoding and decoding!
+**Link to repository:** [Base64 Encoder/Decoder](https://github.com/Arpita23r/UTF-8encoder)
